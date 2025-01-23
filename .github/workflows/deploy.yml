@@ -30,7 +30,7 @@ jobs:
       env:
         RENDER_API_KEY: ${{ secrets.RENDER_API_KEY }}
       run: |
-        curl -fsSL https://render.com/static/cli/install.sh | bash
+        curl -fsSL https://raw.githubusercontent.com/render-oss/cli/refs/heads/main/bin/install.sh | sh
 
         render login --api-key $RENDER_API_KEY
 
