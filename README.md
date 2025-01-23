@@ -26,6 +26,8 @@ Steps to Run Locally
         The service will be available at http://127.0.0.1:5000.
 8.	Testing the API:
         o	Use a tool like Postman to test the endpoints.
+        o   The link to be used in Postman will be <render_link/api/v1/payments> for POST request to initiate payment
+        o   The GET request link for checking payment status will be <render_link/api/v1/payments/{payment_id}>
         o	Include headers such as authentication and content type when making requests
 
 
